@@ -12,8 +12,8 @@ import datetime
 
 
 price_list = []
-two_factor = pyotp.TOTP("ZG3ZKORQJCKKHJBC").now()
-login = r.login("autorish@gmail.com", "C0lvinrun123")
+two_factor = pyotp.TOTP("TWO FACTOR CODE").now()
+login = r.login("USERNAME", "PASSWORD")
 scheduler = sched.scheduler(time.time, time.sleep)
 trade = False 
 trade_counter = 0
