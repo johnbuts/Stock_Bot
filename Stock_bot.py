@@ -241,7 +241,7 @@ def reset_globals():
     fifth_bool_buy = False
     print("RESET")
 
-s = "AAPL"
+
 scheduler.enter(1, 1, should_trade, ("F"))
 scheduler.run() 
 #print(get_latest("USDP"))
