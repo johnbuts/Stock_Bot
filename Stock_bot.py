@@ -1,5 +1,5 @@
 
-#This is my basic Robinhood Stock Bot, Buy/Sell based off of RSI
+#This is my basic Robinhood Stock Bot, Buy/Sell based off of MACD
 import robin_stocks
 import robin_stocks.robinhood as r
 import pyotp
